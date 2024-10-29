@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DataService } from 'src/app/data.service';
 
 
 interface WorkPosition {
@@ -22,6 +23,9 @@ export class InputComponent {
   yearsOfExperience: number = 5;
   workScore: number = 40;
   skillScore: number = 60;
+
+  constructor(private dataService: DataService) {
+  }
 
   onPositionChange(position: WorkPosition) {
     this.selectedPosition = position;
@@ -54,7 +58,13 @@ Work Experience score(max value is ${this.workScore}): (Total relevant years_of_
 
 `;
 
-    console.log("AI prompt",aiPrompt);
+    console.log("AI prompt", aiPrompt);
+    this.dataService.emitData(aiPrompt);
+  }
+
+
+  clearApplicants(){
+    this.dataService.clearData();
   }
 }
 
