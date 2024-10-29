@@ -19,9 +19,9 @@ export class InputComponent {
   ];
 
   selectedPosition: WorkPosition = this.positions[0];
-  yearsOfExperience: number = 0;
-  workScore: number = 0;
-  skillScore: number = 0;
+  yearsOfExperience: number = 5;
+  workScore: number = 40;
+  skillScore: number = 60;
 
   onPositionChange(position: WorkPosition) {
     this.selectedPosition = position;
