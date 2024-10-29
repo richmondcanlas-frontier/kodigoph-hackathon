@@ -1,5 +1,13 @@
 .container {
-    width: 100%;
-    height: 100%;
-    background-color: var(--secondary-color) ;
+    margin-top: 170px;
 }
+
+  .label {
+    display: inline-block;
+    padding: 0.2em 0.6em;
+    font-size: 16px;
+    color: #000000;
+    cursor: pointer;
+    text-decoration: none;
+
+  }

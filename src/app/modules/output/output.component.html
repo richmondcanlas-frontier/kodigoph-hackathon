@@ -1,3 +1,41 @@
 <div class="container">
-    <div class="row"> </div>
+  <h4>List of applicants</h4>
+  <table class="table table-hover ">
+    <thead>
+      <tr>
+        <th scope="col"></th>
+        <th scope="col">Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Skill Score</th>
+        <th scope="col">Work Experience Score</th>
+        <th scope="col">Total Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      <ng-container *ngFor="let app of applicantsData">
+      <tr>
+        <td>
+          <a class="label" data-bs-toggle="collapse" href="#collapse{{app.applicant_id}}" role="button" aria-expanded="false" aria-controls="collapseJohnDoe">
+            View Details
+          </a>
+        </td>
+        <td>{{app.name}}</td>
+        <td>{{app.email}}</td>
+        <td>{{app.skill_score}}</td>
+        <td>{{app.work_experience_score}}</td>
+        <td>{{app.total_score}}</td>
+      </tr>
+      <tr class="collapse" id="collapse{{app.applicant_id}}">
+        <td colspan="4">
+          <div class="card card-body mt-2">
+            <span class="d-block"><strong>Address:</strong> {{app.address}}</span>
+            <span class="d-block"><strong>Experience(Years):</strong> {{app.years_of_work_experience}}</span>
+            <span class="d-block"><strong>Skills:</strong> <span *ngFor="let skill of app.required_skills_possessed"> {{skill}} | </span></span>
+            <span class="d-block"><strong>Current Work:</strong> <span *ngFor="let exp of app.work_experience"> {{exp}} | </span></span>
+          </div>
+        </td>
+      </tr>
+      </ng-container>
+    </tbody>
+  </table>
 </div>
