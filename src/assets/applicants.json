@@ -1,0 +1,171 @@
+[
+    {
+      "applicant_id": 1,
+      "name": "John Doe",
+      "required_skills_possessed": ["Angular", "JavaScript", "HTML", "CSS", "C#", "Java"],
+      "years_of_work_experience": 5,
+      "rank": 1,
+      "total_score": "100",
+      "skill_score": 60,
+      "work_experience_score": 40,
+      "email": "johndoe@example.com",
+      "contact_number": "(555) 123-4567",
+      "address": "123 Main Street, Springfield, IL 62701",
+      "work_experience": [
+        "Tech Innovations Inc., Chicago, IL (June 2021 - Present)",
+        "Creative Solutions LLC, Naperville, IL (March 2019 - May 2021)",
+        "Web Wizards, Aurora, IL (January 2018 - February 2019)"
+      ]
+    },
+    {
+      "applicant_id": 2,
+      "name": "Emily Smith",
+      "required_skills_possessed": ["Angular", "JavaScript", "HTML", "CSS"],
+      "years_of_work_experience": 6,
+      "rank": 2,
+      "total_score": "80",
+      "skill_score": 40,
+      "work_experience_score": 40,
+      "email": "emilysmith@example.com",
+      "contact_number": "(555) 987-6543",
+      "address": "Hometown, TX 12345",
+      "work_experience": [
+        "NextGen Digital, Austin, TX (July 2020 - Present)",
+        "Innovative Web Solutions, Dallas, TX (January 2017 - June 2020)"
+      ]
+    },
+    {
+      "applicant_id": 3,
+      "name": "Michael Johnson",
+      "required_skills_possessed": ["Angular", "JavaScript", "HTML", "CSS"],
+      "years_of_work_experience": 3,
+      "rank": 3,
+      "total_score": "64",
+      "skill_score": 40,
+      "work_experience_score": 24,
+      "email": "michaeljohnson@example.com",
+      "contact_number": "(555) 234-5678",
+      "address": "123 Elm Street, Phoenix, AZ 85001",
+      "work_experience": [
+        "Tech Solutions Corp, Tempe, AZ (March 2021 - Present)"
+      ]
+    },
+    {
+      "applicant_id": 4,
+      "name": "Samantha Lee",
+      "required_skills_possessed": ["Angular", "JavaScript", "HTML", "CSS"],
+      "years_of_work_experience": 2,
+      "rank": 4,
+      "total_score": "56",
+      "skill_score": 40,
+      "work_experience_score": 16,
+      "email": "samanthalee@example.com",
+      "contact_number": "(555) 345-6789",
+      "address": "789 Maple Drive, Los Angeles, CA 90001",
+      "work_experience": [
+        "Digital Solutions Inc., Burbank, CA (June 2022 - Present)"
+      ]
+    },
+    {
+      "applicant_id": 5,
+      "name": "David Brown",
+      "required_skills_possessed": ["Angular", "JavaScript", "HTML", "CSS", "Python"],
+      "years_of_work_experience": 4,
+      "rank": 5,
+      "total_score": "72",
+      "skill_score": 50,
+      "work_experience_score": 22,
+      "email": "davidbrown@example.com",
+      "contact_number": "(555) 456-7890",
+      "address": "456 Oak Street, Denver, CO 80203",
+      "work_experience": [
+        "Tech Innovators, Denver, CO (April 2020 - Present)",
+        "Web Creators, Boulder, CO (May 2018 - March 2020)"
+      ]
+    },
+    {
+      "applicant_id": 6,
+      "name": "Laura Wilson",
+      "required_skills_possessed": ["Angular", "JavaScript", "HTML", "CSS", "Ruby"],
+      "years_of_work_experience": 7,
+      "rank": 6,
+      "total_score": "88",
+      "skill_score": 60,
+      "work_experience_score": 28,
+      "email": "laurawilson@example.com",
+      "contact_number": "(555) 567-8901",
+      "address": "789 Pine Street, Seattle, WA 98101",
+      "work_experience": [
+        "NextGen Tech, Seattle, WA (June 2019 - Present)",
+        "Web Wizards, Bellevue, WA (January 2016 - May 2019)"
+      ]
+    },
+    {
+      "applicant_id": 7,
+      "name": "James Taylor",
+      "required_skills_possessed": ["Angular", "JavaScript", "HTML", "CSS", "PHP"],
+      "years_of_work_experience": 5,
+      "rank": 7,
+      "total_score": "76",
+      "skill_score": 50,
+      "work_experience_score": 26,
+      "email": "jamestaylor@example.com",
+      "contact_number": "(555) 678-9012",
+      "address": "123 Birch Street, Portland, OR 97201",
+      "work_experience": [
+        "Tech Pioneers, Portland, OR (March 2018 - Present)",
+        "Web Innovators, Salem, OR (February 2015 - February 2018)"
+      ]
+    },
+    {
+      "applicant_id": 8,
+      "name": "Olivia Martinez",
+      "required_skills_possessed": ["Angular", "JavaScript", "HTML", "CSS", "Go"],
+      "years_of_work_experience": 6,
+      "rank": 8,
+      "total_score": "84",
+      "skill_score": 55,
+      "work_experience_score": 29,
+      "email": "oliviamartinez@example.com",
+      "contact_number": "(555) 789-0123",
+      "address": "456 Cedar Street, San Francisco, CA 94101",
+      "work_experience": [
+        "Innovative Tech, San Francisco, CA (July 2017 - Present)",
+        "Web Solutions, Oakland, CA (June 2014 - June 2017)"
+      ]
+    },
+    {
+      "applicant_id": 9,
+      "name": "William Anderson",
+      "required_skills_possessed": ["Angular", "JavaScript", "HTML", "CSS", "Swift"],
+      "years_of_work_experience": 3,
+      "rank": 9,
+      "total_score": "68",
+      "skill_score": 45,
+      "work_experience_score": 23,
+      "email": "williamanderson@example.com",
+      "contact_number": "(555) 890-1234",
+      "address": "789 Spruce Street, San Diego, CA 92101",
+      "work_experience": [
+        "Tech Innovators, San Diego, CA (August 2019 - Present)",
+        "Web Creators, La Jolla, CA (July 2016 - July 2019)"
+      ]
+    },
+    {
+      "applicant_id": 10,
+      "name": "Sophia Thomas",
+      "required_skills_possessed": ["Angular", "JavaScript", "HTML", "CSS", "Kotlin"],
+      "years_of_work_experience": 4,
+      "rank": 10,
+      "total_score": "74",
+      "skill_score": 50,
+      "work_experience_score": 24,
+      "email": "sophiathomas@example.com",
+      "contact_number": "(555) 901-2345",
+      "address": "123 Maple Street, Boston, MA 02101",
+      "work_experience": [
+        "NextGen Solutions, Boston, MA (September 2018 - Present)",
+        "Web Wizards, Cambridge, MA (August 2015 - August 2018)"
+      ]
+    }
+  ]
