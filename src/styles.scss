@@ -1,10 +1,10 @@
 :root {
-    --primary-color: #14035e;
-    --secondary-color: #b9aeea;
-    --neutral-color: #3e3a4d;
+    --primary-color: #332b4f;
+    --secondary-color: #f1eff8;
+    --neutral-color: #332b4f;
     --primary-font:  'Roboto', sans-serif;
-    --normal-font-size: #b9aeea;
-    --header-font-size: #14035e;
+    --normal-font-size: 16px;
+    --header-font-size: 20px;
 }
 
 html,
@@ -18,6 +18,7 @@ body {
     box-sizing: border-box;
     height: 100%;
     width: 100%;
+    font-size: var(--normal-font-size);
 }
 
 div {

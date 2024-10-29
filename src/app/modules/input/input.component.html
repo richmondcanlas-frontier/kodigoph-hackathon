@@ -1,3 +1,44 @@
 <div class="container">
-    
+    <div class="subgroup">
+        <hr>
+        DETAILS
+        <hr>
+        <div class="sub-container">
+            <label for="positions">Work Position:</label>
+            <select id="positions">
+                <option *ngFor="let position of positions" [title]="position.skills.join(', ')"
+                    [value]="position.title">
+                    {{ position.title }}
+                </option>
+            </select>
+        </div>
+        <!-- <div *ngIf="selectedPosition">
+        <p>Skills: {{ selectedPosition.skills.join(', ') }}</p>
+    </div> -->
+
+        <div class="sub-container">
+            <label for="years">Years of Experience:</label>
+            <input id="years" type="number" [(ngModel)]="yearsOfExperience" />
+        </div>
+
+    </div>
+
+
+    <div class="subgroup">
+        <hr>
+        CRITERIA
+        <hr>
+        <div class="sub-container">
+            <label for="workScore">Work Experience Score (%):</label>
+            <input id="workScore" type="number" [(ngModel)]="workScore" (input)="updateSkillScore()" max="100" />
+        </div>
+
+        <div class="sub-container">
+            <label for="skillScore">Skill Percentage (%):</label>
+            <input id="skillScore" type="number" [value]="skillScore" disabled />
+        </div>
+
+    </div>
+
+    <button (click)="getTopApplicants()">Get Top Applicants</button>
 </div>
